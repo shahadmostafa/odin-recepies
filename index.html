@@ -3,16 +3,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
 </head>
 <body>
-    <h1> Odin Recipes </h1>
+    <div class="home-container">
+        
+        <div class="header">
+            <h1> Odin Recipes </h1>
+        </div>
 
-    <img src="img-recipebook.jpeg" alt="" width="800" height="600">
+        <div class="nav-bar">
+            <ul>
+                <li> <a href="#"> Home </a></li>
+                <li> <a href="#"> Recipes </a></li>
+                <li> <a href="#"> Contact Us </a></li>
+                <li> <a href="#"> About Us </a></li>
+            </ul>
+        </div>
 
-        <h3>Please find below a collection of recipes </h3>
+        <div class="landing-container">
+            <div class="landing-image">
+                <img src="/images/img-landing-page.jpeg">
+            </div>
+            <div class="landing-text">
+                <h1> Welcome <br> To <br> Odin Recipes</h1>
+                <h3> All Your Favourite Meals In One place</h3>
+            </div>
+        </div>
 
-            <li> <a href="http://127.0.0.1:5500/recipes/lasagna.html"> Grammy's Overnight Lasagna </a> </li>
-            <li> <a href="http://127.0.0.1:5500/recipes/lemonade.html"> Lemonade Cake </a> </li>
+
+        <div class="recipes"> 
+            <!--CARD 1 -->
+             <div class="recipe-card">
+                <div class="img">
+                    <img src="/images/img-lasagna.jpeg">
+                </div>
+                <div class="card-text">
+                    <span class="card-label"> <strong> Main Dish</strong></span>
+                    <span class="card-label"> <strong> Authentic</strong></span>
+                    <h3 class="card-header">Grammys Lasagna</h3>
+                </div>
+             </div>
+
+            <!--CARD 2 -->
+            <div class="recipe-card">
+                <div class="img">
+                    <img src="/images/img-lemonade-cake.jpeg">
+                </div>
+                <div class="card-text">
+                    <span class="card-label"> <strong> Dessert </strong></span>
+                    <span class="card-label"> <strong> Authentic</strong></span>
+                    <h3 class="card-header"> Lemonade Cake</h3>
+                </div>
+            </div>
+                
+            <!--CARD 3 -->
+            <div class="recipe-card">
+                <div class="img">
+                    <img src="/images/img-pancakes.jpeg">
+                </div>
+                <div class="card-text">
+                    <span class="card-label"> <strong> Dessert </strong></span>
+                    <span class="card-label"> <strong> Popular </strong></span>
+                    <h3 class="card-header"> American Style Pancakes</h3>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+
 </body>
 </html>
