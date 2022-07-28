@@ -6,80 +6,95 @@
 body {
     font-family: sans-serif;
     background-color: #fff;
+    
 }
 
 /* Home Page Style Sheet */
+
 .header {
-    margin: 10px 0;
+    background-color: DarkSalmon;
+    color: white;
 }
 
 .header h1 {
     text-align: center;
-    letter-spacing: 10px;
+    letter-spacing: 20px;
     font-size: 45px;
 }
 
 /* Navigation bar Start */
-.nav-bar{
-    margin: 10px 0 10px 0;
-    padding: 10px 0 10px 0;
+.nav-bar {
+    margin: 30px 0;
 }
 
 .nav-bar ul {
     list-style-type: none; /* Removes bullet points */
     margin: 0;
     padding: 0;
+    padding: 14px 0;
 }
 
 .nav-bar li {
     display: inline;
 }
 
-.nav-bar a {
-    margin: 10px;
+.nav-bar li a {
     letter-spacing: 3px;
     text-decoration: none; /* Removes text underline */
     color: black;
+    padding: 14px 16px;
+}
+
+.nav-bar li a:hover {
+    background-color: coral;
 }
 /* Navigation bar END */
 
 .landing-container {
     width: 100%;
     float: left;
-    margin-top: 20px;
 }
 
 .landing-image{
     width: 50%;
-    float: left;
-   
+    float: right;
 }
 
 .landing-image img {
     width: 100%;
+    opacity: 0.6;
 }
 
 .landing-text{
     width: 49%;
-    float: right;
+    height:59%;
+    float: left;
 }
 
 .landing-text h1 {
-    letter-spacing: 5px;
+    letter-spacing: 10px;
     font-size: 72px;
 }
 
 .landing-text h3 {
     margin: 30px 0 ;
-    letter-spacing: 5px;
+    letter-spacing: 10px;
     font-size: 35px;
 }
 
-/* INDEX CONTENT START*/
-
-.recipes, .recipe-card{
-    margin: 20px 0 20px 0;
+.btn-landing {
+    width: 120px;
+    height: 50px;
+    background: #F2994A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none;
+    font-size: 15px;
+    letter-spacing: 2.5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
+/* INDEX CONTENT START*/
 
 .img{
     display: inline-block;
@@ -116,3 +131,9 @@ body {
 
 /* INDEX CONTENT END */
 
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+  }
